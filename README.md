@@ -1,11 +1,15 @@
-# Document commitment 001
+# Encrypted PDF deposit
 
-Deposited by Stephan Lauermann. Version: `deposit-001-v2`.
+Deposited by Stephan Lauermann.
 
-This deposit contains an encrypted document (`proof.pdf.age`), SHA-256
-checksums of the original and encrypted files, and `COMMITMENT.txt`.
-The original document and the dedicated decryption key are retained privately
-for possible later release. Reading the encrypted document requires that key.
+This repository contains an encrypted PDF and SHA-256 checksums. The encrypted
+PDF requires a decryption key, which is retained privately.
+
+If the original PDF is disclosed later, its checksum can be compared with this
+deposit to verify that it is the same file.
+
+**Latest:** [v2](https://github.com/slauerma/hash/releases/tag/deposit-001-v2) ·
+**Previous:** [v1](https://github.com/slauerma/hash/releases/tag/deposit-001-v1)
 
 Original PDF SHA-256:
 
@@ -41,6 +45,3 @@ shasum -a 256 -c plaintext.sha256
 
 A revised document requires a new version and a new commitment. Each deposit
 identifies only the exact original bytes specified by its checksum.
-
-[This release](https://github.com/slauerma/hash/releases/tag/deposit-001-v2) ·
-[Previous release](https://github.com/slauerma/hash/releases/tag/deposit-001-v1)
