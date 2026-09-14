@@ -1,11 +1,17 @@
 # Document commitment 001
 
-Deposited by Stephan Lauermann. Version: `deposit-001-v1`.
+Deposited by Stephan Lauermann. Version: `deposit-001-v2`.
 
 This deposit contains an encrypted document (`proof.pdf.age`), SHA-256
 checksums of the original and encrypted files, and `COMMITMENT.txt`.
-The original document and the dedicated decryption
-key are retained privately for possible later release.
+The original document and the dedicated decryption key are retained privately
+for possible later release. Reading the encrypted document requires that key.
+
+Original PDF SHA-256:
+
+```text
+682a43a774cad78ea3d68b6b362a998313d4668b794221b2d3099b95280fdd31
+```
 
 The exact commitment is in `COMMITMENT.txt`. Its preparation time is
 self-reported. This commitment identifies exact bytes; it does not establish
@@ -33,5 +39,8 @@ age --decrypt --identity identity.txt --output proof.pdf proof.pdf.age
 shasum -a 256 -c plaintext.sha256
 ```
 
-A revised document requires a new version and a new commitment. This deposit
+A revised document requires a new version and a new commitment. Each deposit
 identifies only the exact original bytes specified by its checksum.
+
+[This release](https://github.com/slauerma/hash/releases/tag/deposit-001-v2) ·
+[Previous release](https://github.com/slauerma/hash/releases/tag/deposit-001-v1)

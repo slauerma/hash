@@ -1,18 +1,17 @@
 Document commitment 001
 Deposited by: Stephan Lauermann
-Version: deposit-001-v1
-Preparation time (UTC, self-reported): 2026-09-14T11:22:08Z
+Version: deposit-001-v2
+Preparation time (UTC, self-reported): 2026-09-14T19:44:25Z
 
 Original document: proof.pdf
-SHA-256: 8e59d264e16b37778686c5bb5a6aadb0d0bb9ac1776e3f035e5a02a595478ac3
+SHA-256: 682a43a774cad78ea3d68b6b362a998313d4668b794221b2d3099b95280fdd31
 
 Encrypted document: proof.pdf.age
-SHA-256: 67adef26f48f02e310d7140401bf6b0db6e8709784918372e3ee7c0f54872426
+SHA-256: 635b11f6a5d1a6303c1157c54f04f6a62a0a7b6354e58a53ed16f93223f416c4
 
 The original document and the dedicated decryption key are retained privately
 for possible later release. The document's contents are withheld in this deposit.
 
 This commitment identifies exact bytes. It does not establish authorship,
-correctness or priority. The preparation time above is not independently
-certified. Any independent existence bound must be determined by verifying
-the OpenTimestamps receipt for this exact COMMITMENT.txt file.
+correctness or priority. The preparation time above is self-reported;
+no independent timestamp is included in this release.
