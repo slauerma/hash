@@ -8,13 +8,13 @@ PDF requires a decryption key, which is retained privately.
 If the original PDF is disclosed later, its checksum can be compared with this
 deposit to verify that it is the same file.
 
-**Latest:** [v2](https://github.com/slauerma/hash/releases/tag/deposit-001-v2) ·
-**Previous:** [v1](https://github.com/slauerma/hash/releases/tag/deposit-001-v1)
+**Latest:** [v3](https://github.com/slauerma/hash/releases/tag/deposit-001-v3) ·
+**Previous:** [v2](https://github.com/slauerma/hash/releases/tag/deposit-001-v2), [v1](https://github.com/slauerma/hash/releases/tag/deposit-001-v1)
 
 Original PDF SHA-256:
 
 ```text
-682a43a774cad78ea3d68b6b362a998313d4668b794221b2d3099b95280fdd31
+dacf5cc5fc3d2946883357fed25d1ba7970b9229af612fbad39520fbf19148e5
 ```
 
 The exact commitment is in `COMMITMENT.txt`. Its preparation time is

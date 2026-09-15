@@ -1,13 +1,13 @@
 Document commitment 001
 Deposited by: Stephan Lauermann
-Version: deposit-001-v2
-Preparation time (UTC, self-reported): 2026-09-14T19:44:25Z
+Version: deposit-001-v3
+Preparation time (UTC, self-reported): 2026-09-15T05:55:00Z
 
 Original document: proof.pdf
-SHA-256: 682a43a774cad78ea3d68b6b362a998313d4668b794221b2d3099b95280fdd31
+SHA-256: dacf5cc5fc3d2946883357fed25d1ba7970b9229af612fbad39520fbf19148e5
 
 Encrypted document: proof.pdf.age
-SHA-256: 635b11f6a5d1a6303c1157c54f04f6a62a0a7b6354e58a53ed16f93223f416c4
+SHA-256: 54e00bf74cfa2a55c463d5783ea07230331d629a506685ee6017f8d19c1e9e40
 
 The original document and the dedicated decryption key are retained privately
 for possible later release. The document's contents are withheld in this deposit.
